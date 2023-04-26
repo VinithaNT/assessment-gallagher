@@ -45,16 +45,9 @@
 <script>
 export default {
   name: 'HomePay',
-  props: {
-      grossSalaryProp: {
-          type: Number,
-          default: 0
-      }
-  },
   data() {
       return {
           grossSalary: 0,
-          buttonText: "Enter Salary",
           totalAnnualTax: 0,
           totalAnnualNI: 0,
           annulaNetPay: 0,
